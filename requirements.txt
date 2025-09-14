@@ -1,0 +1,19 @@
+faiss-cpu
+groq
+langchain-groq
+PyPDF2
+langchain
+streamlit
+langchain_community
+python-dotenv
+pypdf
+pytesseract
+pillow
+tiktoken
+pandas
+unstructured
+python-docx
+reportlab
+PyMuPDF
+sentence-transformers
+-e .
