@@ -12,9 +12,6 @@ This tool can **summarize scientific papers**, **analyze graphs & images in PDFs
 - 📝 **Export Reports** – Save structured outputs in:
   - Word (`.docx`)
   - PDF (`.pdf`)
-  
-
----
 
 ## ⚙️ Installation
 
@@ -32,17 +29,14 @@ This tool can **summarize scientific papers**, **analyze graphs & images in PDFs
 
    pip install -r requirements.txt
    ```
-
 3. Run the app locally with streamlit :
    ```bash
-  streamlit run app.py
-   ```
+    streamlit run app.py
+ ```
 
+## Project Structure
 
----
-
-## 📂 Project Structure
-```
+```bash
 ├── extract_images  # extracted images from research paper 
 ├── research 
     ├── research(RAg).ipynb   # Jupyter notebooks for RAG experimentation.
@@ -66,8 +60,6 @@ This tool can **summarize scientific papers**, **analyze graphs & images in PDFs
 ├── requirements.txt   # installation details   
 └── setup.py           # setup details
 ```
-
----
 
 ## 🎯 Usage
 1. Upload a **PDF research paper**.   
@@ -98,13 +90,13 @@ Feel free to fork this repo and open a PR 🚀
 
 ## 🌟 Acknowledgements
 # Acknowledgement 
-![Multimodal(Rag)](https://img.shields.io/badge/Python-3.10%2B-blue) 
-![LLMs](https://img.shields.io/badge/Tenssorflow%20-orange)
-![Prompt Engineering](https://img.shields.io/badge/Deep%20Learning-Tansfer%20Learning-red)
-![Groq](https://img.shields.io/badge/Lenet%20-DenseNet-blue)
-![Llama](https://img.shields.io/badge/Resnet%20-InceptionResNet-blue)
-![Streamlit](https://img.shields.io/badge/Flask-Web%20App-orange)
-![Reseach](https://img.shields.io/badge/Status-Active-brightgreen)
+![Multimodal(Rag)](https://img.shields.io/badge/Multimodal%2BRAG-blue) 
+![LLMs](https://img.shields.io/badge/LLMs%20-orange)
+![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-red)
+![Groq](https://img.shields.io/badge/Groq%20-Llama-blue)
+![Llama](https://img.shields.io/badge/Paper%20-Analysis-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit%20App-orange)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 ---
  
 ## Author
