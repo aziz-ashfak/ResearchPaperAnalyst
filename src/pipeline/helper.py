@@ -56,6 +56,7 @@ def finalize_analysis(pdf_path, followup_question=None):
     print(" Reports saved: summary.docx, summary.pdf")
 
 # for results directory
+# for single test 
 import os
 os.makedirs("test_result", exist_ok=True)
 
