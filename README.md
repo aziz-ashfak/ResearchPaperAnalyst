@@ -29,7 +29,11 @@ This tool can **summarize scientific papers**, **analyze graphs & images in PDFs
 
    pip install -r requirements.txt
    ```
-3. Run the app locally with streamlit :
+3. Uapdate .env file 
+   ```bash
+   update your .env with GROQ_API_KEY
+   ```
+4. Run the app locally with streamlit :
    ```bash
     streamlit run app.py
  ```
