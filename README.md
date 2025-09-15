@@ -52,7 +52,7 @@ This tool can **summarize scientific papers**, **analyze graphs & images in PDFs
         ├── utils
             ├── _init__.py
             ├── export_utils.py      #  all export function
-            ├── llm_utils.py         # llm details
+            ├── llm_utils.py         # llm details for  mutimodal rag
             ├── pdf_utils.py         # extract text with images
 ├── config.py       # add Groq api key
 
@@ -107,5 +107,5 @@ Feel free to fork this repo and open a PR 🚀
 
 👤 **Aziz Ashfak**  
 📧 Email: [azizashfak@gmail.com](mailto:azizashfak@gmail.com)  
-🔗 LinkedIn: [linkedin.com/in/aziz-ashfak](https://www.linkedin.com/in/aziz-ashfak/)  
+🔗 LinkedIn: [linkedin.com/in/aziz-ashfak](https://www.linkedin.com/in/aziz-ashfak1/)  
 🐙 GitHub: [github.com/aziz-ashfak](https://github.com/aziz-ashfak/) 
