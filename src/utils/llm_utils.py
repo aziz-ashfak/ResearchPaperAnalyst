@@ -3,6 +3,10 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_groq import ChatGroq
 from langchain_core.messages import HumanMessage
 #from src.prompts import summarize_prompt
+from dotenv import find_dotenv,load_dotenv
+load_dotenv(find_dotenv())
+_ = os.getenv("GROQ_API_KEY")
+GROQ_API_KEY = os.environ['GROQ_API_KEY']
 
 # --- Image Description ---
 def describe_image(image_path, image_ext):
