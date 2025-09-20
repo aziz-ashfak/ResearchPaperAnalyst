@@ -15,7 +15,7 @@ def describe_image(image_path, image_ext):
         base64_image = base64.b64encode(image_file.read()).decode("utf-8")
 
     mime_type = f"image/{image_ext}" if image_ext != "jpg" else "image/jpeg"
-    llm_vision = ChatGroq(model="meta-llama/llama-4-scout-17b-16e-instruct" # model 
+    llm_vision = ChatGroq(groq_api_key = GROQ_API_KEY,model="meta-llama/llama-4-scout-17b-16e-instruct" # model 
                           #model="llama-3.3-70b-versatile"
                           )
 
@@ -35,7 +35,7 @@ def describe_image(image_path, image_ext):
 
 # --- Text Summaries ---
 def explain_document(text, question):
-    llm = ChatGroq(model="llama-3.3-70b-versatile")
+    llm = ChatGroq(groq_api_key = GROQ_API_KEY,model="llama-3.3-70b-versatile")
     prompt_template = ChatPromptTemplate.from_template(
         "You are a real-life researcher. Based on the following context from a research paper, "
         "please answer this question: {question}\n\n--- Text Context ---\n{context}"
@@ -44,7 +44,7 @@ def explain_document(text, question):
     return "".join(chunk.content for chunk in chain.stream({"question": question, "context": text[:8000]}))
 
 def answer_followup(text, question):
-    llm = ChatGroq(model="llama-3.3-70b-versatile")
+    llm = ChatGroq(groq_api_key = GROQ_API_KEY,model="llama-3.3-70b-versatile")
     prompt_template = ChatPromptTemplate.from_template(
         "You are a real-life researcher. Based on the following context from a research paper, "
         "please provide a detailed answer to this question: {question}\n\n--- Text Context ---\n{context}"
